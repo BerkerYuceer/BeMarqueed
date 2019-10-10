@@ -1,0 +1,29 @@
+.marqueeHolder {
+  margin: 0 auto;
+  width: 1976px;
+  height: 832px;
+}
+.marquee {
+  margin: 0;
+  padding: 0;
+  height: 52px;
+  background: #000;
+  box-shadow: 0 0 5px inset #fff;
+}
+.marquee728 { width: 728px; }
+.marquee1248 { width: 1248px; }
+.marquee1456 { width: 1456px; }
+.marquee1560 { width: 1560px; }
+.marquee1872 { width: 1872px; }
+.marquee1976 { width: 1976px; }
+.marqTxt {
+  position: relative;     // Important do not change
+  left: 20px;
+  width: auto;            // Important do not change
+  height: 52px;
+  font-size: 47px;
+  color: #fff;
+  box-shadow: 0 0 5px inset #f00000;
+  display: inline-block;  // Important do not change
+  white-space: nowrap;    // Important do not change
+}
