@@ -78,10 +78,10 @@ var BeMarqueed = (function BeMarqueed() {
       if(!marqArr[marqi].children[0]) {
         let newchild = document.createElement("div");
         newchild.className = "marqTxt";
+	newchild.innerHTML = marqText;
         marqArr[marqi].appendChild(newchild);
       }
       reset(marqi);
-      marqArr[marqi].children[0].innerHTML = marqText;
     }
     marqi = 0;
   }
