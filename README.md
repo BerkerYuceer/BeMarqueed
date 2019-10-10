@@ -35,29 +35,38 @@ HTML:
 -
 -At least 1 or more divs must be created with class **".marquee"**
 
-<div>
-  <div class="marquee"></div> 
-  <div class="marquee"></div>
-  <div class="marquee"></div>
-</div>
+    <div>
+      <div class="marquee"></div> 
+      <div class="marquee"></div>
+      <div class="marquee"></div>
+    </div>
 
 -You can directly add your marquee text **Element** with the text you want without using **BeMarqueed.text("");**
-<div>
-  <div class="marquee">
-    <div class="marqTxt">Some predefined text!</div>
-  </div>
-  <div class="marquee"></div>
-  <div class="marquee"></div>
-</div>
+
+    <div>
+      <div class="marquee">
+        <div class="marqTxt">Some predefined text!</div>
+      </div>
+      <div class="marquee"></div>
+      <div class="marquee"></div>
+    </div>
 
 CSS: 
 -
 - These spesific definitions must be included to make it work correctly..
-.marqTxt {
-  position: relative;     // Important you may change with positioning you need
-  width: auto;            // Important do not change
-  display: inline-block;  // Important do not change
-  white-space: nowrap;    // Important do not change
-}
+
+      .marqTxt {
+        position: relative;     // Important you may change with positioning you need
+        width: auto;            // Important do not change
+        display: inline-block;  // Important do not change
+        white-space: nowrap;    // Important do not change
+      }
 
 It is simple and easy to use.
+
+## License
+
+This plugin is licensed under the Mozilla Public License Version 2.0 (LICENSE.txt).
+
+Copyright (c) 2019 [Berker Yüceer](https://stackoverflow.com/users/861019/berker-y%c3%bcceer)
+
