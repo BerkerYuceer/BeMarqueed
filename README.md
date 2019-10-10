@@ -10,26 +10,28 @@ Berker Yüceer 07.10.2019
 
 Usage sample: 
 -
+
 JS:
 -
-// Sample usages
-BeMarqueed.init();        // To install
 
-// To add the text you want
-BeMarqueed.text("This is another string that will override the existing text to be marqueed in the field!");
+    // Sample usages
+    BeMarqueed.init();        // To install
 
-BeMarqueed.follow(true);  // True if you would like to wait one to reach its destination then start another 
-                          // False if you would like to marquee simultaneously
-                          
-BeMarqueed.replay(true);  // True if you would like to marquee infinitely
-                          // False if you would like to marquee once
-                          
-BeMarqueed.speed(20);     // Define by how many miliseconds speed it will work (Default is 20)
-BeMarqueed.step(10);      // Define by how many pixels it will move (Default is 5)
-BeMarqueed.start();       // To start the marquee given by index (if no index given it will start from current index)
-BeMarqueed.stop(1);       // To stop the marquee given by index (if no index given it will not work, first index 0)
-BeMarqueed.reset(2);      // To reset the poisition given by index (if no index given it will not work, first index 0)
-                          // if you are using it for only 1 item stop(0) or reset(0) will be enough..
+    // To add the text you want
+    BeMarqueed.text("This is another string that will override the existing text to be marqueed in the field!");
+
+    BeMarqueed.follow(true);  // True if you would like to wait one to reach its destination then start another 
+                              // False if you would like to marquee simultaneously
+
+    BeMarqueed.replay(true);  // True if you would like to marquee infinitely
+                              // False if you would like to marquee once
+
+    BeMarqueed.speed(20);     // Define by how many miliseconds speed it will work (Default is 20)
+    BeMarqueed.step(10);      // Define by how many pixels it will move (Default is 5)
+    BeMarqueed.start();       // To start the marquee given by index (if no index given it will start from current index)
+    BeMarqueed.stop(1);       // To stop the marquee given by index (if no index given it will not work, first index 0)
+    BeMarqueed.reset(2);      // To reset the poisition given by index (if no index given it will not work, first index 0)
+                              // if you are using it for only 1 item stop(0) or reset(0) will be enough..
 
 HTML: 
 -
