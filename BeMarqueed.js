@@ -1,5 +1,5 @@
 /*
-	Marquee Library
+	BeMarqueed Library
 	
 	This totaly free code allows you to marquee on multiple sized divs,
 	which are either next to each other or seperately given but
