@@ -141,7 +141,7 @@ var BeMarqueed = (function BeMarqueed() {
 		log : function(flag) { marqLog = flag; }
 	};
 })();
-/*//
+///*
 // Sample usages
 // Object inital if a div defined will follow that object
 BeMarqueed.init(".bemarqueed");
