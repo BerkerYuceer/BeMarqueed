@@ -16,9 +16,6 @@ Usage sample:
 
 JS:
 -
-
-    // Sample usages
-
     // Object inital if a div defined will follow that object
     BeMarqueed.init(".bemarqueed");
     // HTML elements or Text to be marqueed
