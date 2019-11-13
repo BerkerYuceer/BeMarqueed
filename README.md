@@ -18,40 +18,51 @@ JS:
 -
     // Object inital if a div defined will follow that object
     BeMarqueed.init(".bemarqueed");
+    
     // HTML elements or Text to be marqueed
     // default: "This is a string to be marqueed in the field!"
     BeMarqueed.text(elems);
+    
     // On multiple element when one reaches begin location -
     // trigger next one | default: false
     BeMarqueed.follow(true);
+    
     // On singular or multiple element 
     // when one finishes marquee restart | default: false
     BeMarqueed.replay(true);
+    
     // On multiple element wait for all marquee 
     // objects to finish then restart | default: false
     BeMarqueed.waitforall(false);
+    
     // Delay between each marquee 
     // run a test then arrange it to the longest element's 
     // width being marqueed in time as ms | default: 0
     BeMarqueed.delay(9000);
+    
     // Delay between each step based on miliseconds 
     // (lower is faster) | default: 20
     BeMarqueed.speed(30);
+    
     // Step width as pixel on each action 
     // (higher is faster) | default: 5
     BeMarqueed.step(10);
+    
     // True if you want to see the log | default: 0
-    BeMarqueed.log(false); 
+    BeMarqueed.log(false);
+    
     // Starts the marquee process 
     // if multiple object being marqueed 
     // you can define the index to start marquee
     // example: BeMarqueed.start(index);
     BeMarqueed.start();
+    
     // Stops the marquee process 
     // if multiple object being marqueed 
     // you can define the index to stop marquee 
     // example: BeMarqueed.stop(index);
     BeMarqueed.stop();
+    
     // Reset the position of marquee 
     // if multiple object being marqueed 
     // you can define the index to reset marquee 
